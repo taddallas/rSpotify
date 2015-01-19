@@ -1,0 +1,40 @@
+\name{rSpotify}
+\alias{rSpotify}
+\docType{package}
+\title{
+Access Spotify's API through R.
+}
+\description{
+Constructs undirected graphs by querying the Spotify API. This allows you to do some cool visualizations of the relationships among artists, and just to explore what Spotify calls "similar artists". 
+}
+\details{
+\tabular{ll}{
+Package: \tab rSpotify\cr
+Type: \tab Package\cr
+Version: \tab 1.0.0\cr
+Date: \tab 2015-01-19\cr
+License: \tab GPL-3 \cr
+}
+}
+
+\author{
+Tad Dallas <tdallas@uga.edu>
+}
+
+\references{
+https://developer.spotify.com/web-api/
+}
+
+
+\seealso{
+\code{\link{getRelated}},  \code{\link{getYourNetwork}}, \code{\link{getPath}}
+}
+
+\examples{
+
+#Finds related artists to Defeater
+DefLike=getRelated("Defeater")
+
+#
+
+}
