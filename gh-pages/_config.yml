@@ -1,0 +1,18 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            rSpotify
+tagline:          Music + R
+paginate:         1
+baseurl:          /
+author:
+  name:           Tad Dallas
+  url:            https://taddallas.github.io
+  email:          tdallas@uga.edu
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/taddallas/rSpotify
