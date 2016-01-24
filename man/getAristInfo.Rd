@@ -1,11 +1,11 @@
 \name{getArtistInfo}
 \alias{getArtistInfo}
 
-\title{ 
+\title{ Get artist info
 
 }
 \description{
- 
+ Returns a vector of artist information, including number of followers, the uri code, genres, and a popularity score.
 }
 \usage{
 getArtistInfo(artistName)
@@ -14,14 +14,12 @@ getArtistInfo(artistName)
 
 \arguments{
   \item{artistName}{
-The name of some band you want to query. 
+The name of some band you want to query.
 }
 }
 
 \value{
-
-
-
+vector of artist characteristics
 }
 
 \references{
@@ -37,10 +35,9 @@ Tad Dallas
 \examples{
 
 # Nobody likes Defeater
-defeater=getArtistInfo("Defeater")
+defeater <- getArtistInfo("Defeater")
 
 # Everybody loves Kanye
-kanye=getArtistInfo("Kanye West")
+kanye <- getArtistInfo("Kanye West")
 
 }
-

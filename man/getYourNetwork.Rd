@@ -14,12 +14,12 @@ getYourNetwork(bands)
 
 \arguments{
   \item{bands}{
-A vector of band names. 
+A vector of band names.
 }
 }
 
 \details{
-This is similar to `getPath`, but it only takes a single step away from each of the elements in `bands`. 
+This is similar to `getPath`, but it only takes a single step away from each of the elements in `bands`.
 }
 
 \value{
@@ -31,12 +31,12 @@ Tad Dallas
 }
 
 \examples{
-	library(d3Network)
+  \dontrun{
+	library(networkD3)
 	bands=c('Andrew Jackson Jihad', 'The Mountain Goats', 'Katy Perry')
-	test=getYourNetwork(bands)
-	
-	#This will output an html file that will contain a dynamic network plot	
+	test <- getYourNetwork(bands)
+
+	#This will output an html file that will contain a dynamic network plot
 	bandsPlot=d3SimpleNetwork(test, textColour="black", linkColour='green', nodeColour='blue', charge=-500, fontsize=20, linkDistance=100, width=1000, height=1000, file="bandsPlot.html", opacity=0.3)
-
+  }
 }
-
