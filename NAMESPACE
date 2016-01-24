@@ -1,3 +1,3 @@
 exportPattern("^[[:alpha:]]+")
 
-import(devtools, igraph, jsonlite, RCurl, networkD3)
+import(devtools, igraph, jsonlite, RCurl, networkD3, testthat)
