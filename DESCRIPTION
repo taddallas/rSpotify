@@ -1,10 +1,20 @@
 Package: rSpotify
 Type: Package
-Title:  Access Spotify's API through R.
+Title: Access Spotify's API through R.
 Version: 1.0.1
 Date: 2016-01-19
 Author: Tad Dallas
-Imports: devtools, igraph, jsonlite, RCurl, networkD3, testthat
+Imports:
+    igraph,
+    jsonlite,
+    RCurl,
+    networkD3
+Suggests:
+    devtools,
+    testthat
 Maintainer: Tad Dallas <tdallas@uga.edu>
-Description: Constructs undirected graphs by querying the Spotify API. This allows you to do some cool visualizations of the relationships among artists, and just to explore what Spotify calls "similar artists".
+Description: Constructs undirected graphs by querying the Spotify API. This
+    allows you to do some cool visualizations of the relationships among artists,
+    and just to explore what Spotify calls "similar artists".
 License: GPL-3
+RoxygenNote: 5.0.1
