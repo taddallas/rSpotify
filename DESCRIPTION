@@ -5,16 +5,12 @@ Version: 1.0.1
 Date: 2016-01-19
 Author: Tad Dallas
 Imports:
-    igraph,
     jsonlite,
-    RCurl,
-    networkD3
+    RCurl
 Suggests:
-    devtools,
-    testthat
-Maintainer: Tad Dallas <tdallas@uga.edu>
-Description: Constructs undirected graphs by querying the Spotify API. This
-    allows you to do some cool visualizations of the relationships among artists,
-    and just to explore what Spotify calls "similar artists".
+    devtools
+Maintainer: Tad Dallas <tdallas@ucdavis.edu>
+Description: Controls Spotify through R on Linux. Really only useful if 
+	you were in an R session and too lazy to open a terminal.
 License: GPL-3
 RoxygenNote: 5.0.1
