@@ -17,7 +17,6 @@
 #' control('info')
 #'}
 #'
-
 control <- function(action='next'){
     ##check to see if sp is installed
     if(inherits(try(system("sp version", intern=TRUE)), 'try-error')){
